@@ -4,13 +4,12 @@
 // Variables
 @import 'variables';
 
+$fa-font-path: "../webfonts";
 // Bootstrap
+
 @import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
 
-$fa-font-path: "../fonts/" !default;
-
-@import '~admin-lte/dist/css/AdminLTE.css';
-
-@import'~font-awesome/scss/font-awesome';
-@import '~admin-lte/dist/css/AdminLTE.css';
-@import '~admin-lte/dist/css/skins/_all-skins.css';
